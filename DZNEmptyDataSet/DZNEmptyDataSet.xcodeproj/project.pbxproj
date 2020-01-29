@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3AC13C2C04A330F6731CD271 /* Pods_DZNEmptyDataSetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5DC4B343BE997FFAA0048 /* Pods_DZNEmptyDataSetTests.framework */; };
+		5785F01D23E15EB80007F01B /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5785F01A23E15EB80007F01B /* UIScrollView+EmptyDataSet.m */; };
+		5785F01E23E15EB80007F01B /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5785F01C23E15EB80007F01B /* UIScrollView+EmptyDataSet.h */; };
 		F56CEC4B1E67430000E2FACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58A3E7F1E66B62F0086E0EF /* Assets.xcassets */; };
 		F58A3E3C1E66AEE90086E0EF /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A3E321E66AEE90086E0EF /* DZNEmptyDataSet.framework */; };
 		F58A3E411E66AEE90086E0EF /* ApplicationsSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A3E401E66AEE90086E0EF /* ApplicationsSnapshotTests.m */; };
 		F58A3E431E66AEE90086E0EF /* DZNEmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F58A3E351E66AEE90086E0EF /* DZNEmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F58A3E4E1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F58A3E4C1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F58A3E4F1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A3E4D1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m */; };
 		F58A3E931E66B62F0086E0EF /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A3E7B1E66B62F0086E0EF /* Application.m */; };
 		F58A3E951E66B62F0086E0EF /* applications.json in Resources */ = {isa = PBXBuildFile; fileRef = F58A3E7E1E66B62F0086E0EF /* applications.json */; };
 		F58A3E961E66B62F0086E0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58A3E7F1E66B62F0086E0EF /* Assets.xcassets */; };
@@ -69,6 +69,8 @@
 		1C26D4C95382E14DAC506EE2 /* Pods-EmptyDataSetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataSetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataSetTests/Pods-EmptyDataSetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		23BB766D928F8635A201F389 /* Pods_EmptyDataSetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyDataSetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3456B9A6D72D48F19A7F61 /* Pods-DZNEmptyDataSetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZNEmptyDataSetTests/Pods-DZNEmptyDataSetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5785F01A23E15EB80007F01B /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		5785F01C23E15EB80007F01B /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		78C5DC4B343BE997FFAA0048 /* Pods_DZNEmptyDataSetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZNEmptyDataSetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84189CEC4210484C1F24D3A8 /* Pods-DZNEmptyDataSetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZNEmptyDataSetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZNEmptyDataSetTests/Pods-DZNEmptyDataSetTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC2B63699C936D9C9CDB1740 /* Pods-EmptyDataSetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataSetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataSetTests/Pods-EmptyDataSetTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +80,6 @@
 		F58A3E3B1E66AEE90086E0EF /* DZNEmptyDataSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZNEmptyDataSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A3E401E66AEE90086E0EF /* ApplicationsSnapshotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationsSnapshotTests.m; sourceTree = "<group>"; };
 		F58A3E421E66AEE90086E0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F58A3E4C1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "../../Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		F58A3E4D1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "../../Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		F58A3E631E66B5410086E0EF /* Applications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Applications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A3E7A1E66B62F0086E0EF /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		F58A3E7B1E66B62F0086E0EF /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
@@ -172,6 +172,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5785F01923E15EB80007F01B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5785F01A23E15EB80007F01B /* UIScrollView+EmptyDataSet.m */,
+				5785F01B23E15EB80007F01B /* include */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		5785F01B23E15EB80007F01B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5785F01C23E15EB80007F01B /* UIScrollView+EmptyDataSet.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		A7CC5E0B0809CA256BDA9067 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,9 +226,8 @@
 		F58A3E341E66AEE90086E0EF /* DZNEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
+				5785F01923E15EB80007F01B /* Sources */,
 				F58A3E351E66AEE90086E0EF /* DZNEmptyDataSet.h */,
-				F58A3E4C1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h */,
-				F58A3E4D1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m */,
 				F58A3E361E66AEE90086E0EF /* Info.plist */,
 			);
 			path = DZNEmptyDataSet;
@@ -346,8 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58A3EA31E66B6C70086E0EF /* Applications-Prefix.pch in Headers */,
+				5785F01E23E15EB80007F01B /* UIScrollView+EmptyDataSet.h in Headers */,
 				F58A3E431E66AEE90086E0EF /* DZNEmptyDataSet.h in Headers */,
-				F58A3E4E1E66AF400086E0EF /* UIScrollView+EmptyDataSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58A3E4F1E66AF400086E0EF /* UIScrollView+EmptyDataSet.m in Sources */,
+				5785F01D23E15EB80007F01B /* UIScrollView+EmptyDataSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
